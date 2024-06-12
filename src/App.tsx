@@ -20,7 +20,7 @@ function App() {
       <div className='app-header'>
         {isMobile ?
           <>
-            <Typography variant='h6' align='left'>
+            <Typography variant='h6' align='left' sx={{ fontSize: '1.05rem', fontWeight: 'bold' }}>
               Animal Nutrition Classification Tool
             </Typography>
             <Typography align='left' gutterBottom>
