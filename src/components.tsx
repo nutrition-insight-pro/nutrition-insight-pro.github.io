@@ -14,7 +14,7 @@ const CustomQuestion: FC<CustomQuestionProps> = ({ text, value, setValue }) => {
       <Typography align="left">
           {text}
       </Typography>
-      <FormControl sx={{ m: 1, margin: '10px 0px 30px 0px' }} fullWidth variant="outlined">
+      <FormControl sx={{ m: 1, margin: '10px 0px 40px 0px' }} fullWidth variant="outlined">
           <OutlinedInput value={value} onChange={(event: ChangeEvent<HTMLInputElement>) => {
             setValue(event.target.value);
         }}/>
